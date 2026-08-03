@@ -1,0 +1,17 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Profile Images: anyone authenticated can view, but only owner can upload/update
+    match /profile_images/{userId}.jpg {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Diagnostics testing folder
+    match /tests/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

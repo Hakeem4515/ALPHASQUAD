@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648204198244",
+    "project_id": "smart-solar-alpha",
+    "storage_bucket": "smart-solar-alpha.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648204198244:android:3f56ce98f1458d6a581a71",
+        "android_client_info": {
+          "package_name": "com.AlphaSquad.smart_solar_light"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648204198244-57a97dbl8i2hhuil9m9md7bsbnhhvbp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.AlphaSquad.smart_solar_light",
+            "certificate_hash": "30a0acc95f74598aff5049894b8cc99c8dfb2841"
+          }
+        },
+        {
+          "client_id": "648204198244-am4vl9jsf20bj7qi9uu4e8iu3utanq1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4N4MQzBurqyDxY8oBzvkXwy8qPGXVe1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648204198244-am4vl9jsf20bj7qi9uu4e8iu3utanq1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
